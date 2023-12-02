@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="z1.png" >
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #main{
+            height: 70px;
+            width: 100vw;
+            background-color: white;
+            
+            
+        }
+        .a1 {
+            height: 80%;
+            width: 12%;
+            
+            float:left;
+        }
+        .a2{
+            height: 90%;
+            width: 53%;
+            float: left;
+            background-color: white;
+            margin-top: 2px;
+        }
+        .a3 {
+            height: 80%;
+            width: 20%;
+            margin-left: 110px;
+            background-color: white;
+            
+            float:left;
+        }
+        .a4 {
+            height: 80%;
+            width: 5%;
+            background-color:white;
+            float:left;
+        }
+
+        .SecDiv {
+            height: 550px;
+            width: 100vw;
+            background-color: white;
+            margin-top: 20px;
+        }
+        .b1 {
+            height: 80%;
+            width: 35%;
+            background:white;
+            float: left;
+            margin-top: 7%;
+            margin-left: 150px;
+        }
+        .b2 {
+            height: 80%;
+            width: 53%;
+            background:white;
+            float:left;
+            margin-top: 3%;
+        }
+        
+       .i1{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+       }
+       input[type=search]{
+        height: 45px;
+        width: 85%;
+        margin-left: 35px;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        background-image: url(m12.png) ;
+        background-size: 20px;
+        font-size: 15px;
+        background-repeat: no-repeat;
+        background-position: 16px 12px;
+       }
+       
+       .i3{
+        width: 93%;
+        height: 120%;
+        
+       }
+       #bu1{
+        background-color: white;
+        color: blue;
+        height: 90%;
+        width: 100px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+       }
+       #h12{
+        color: red;
+       }
+       *{
+           font-family: Roboto,Helvetica Neue,sans-serif;
+        }
+        input[type=image]{
+            height: 20px;
+            width: 20px;
+            margin-left: 30px;
+            margin-bottom: -20px;
+        }
+        #b3{
+            height: 50px;
+            width: 380px;
+           border-color: white;
+           background-color: white;
+           color: gray;
+           border-radius: 30px;
+           box-shadow: 1px 1px 1px 1px;
+           margin-left: 35%;
+            
+        }
+        #b3 :hover{
+            background-color: lightgray;
+            color: black;
+        }
+        #b4{
+            height: 28px;
+            width: 120px;
+            background-image: url(s5.png);
+            background-repeat: no-repeat;
+            background-size: 26px;
+            margin-left: 20px;
+            border-radius: 20px;
+            color: royalblue;
+            border-color: white;
+        }
+        #b5{
+            height: 50px;
+            border-radius: 5px;
+            width: 120px;
+            background-color: royalblue;
+            color: white;
+        }
+        #b5:hover{
+            background-color: white;
+            color: royalblue;
+        }
+        #b6{
+            height: 25px;
+            width: 120px;
+            background-image: url(s5.png);
+            background-repeat: no-repeat;
+            background-size: 25px;
+            margin-left: 170px;
+            border-radius: 20px;
+            color: royalblue;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+       a:link{
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+       }
+       .fourth{
+        padding-left: 10%;
+        border: 1px solid lightgray;
+        width: 78%;
+        height: 500px;
+        margin-left: 10%;
+        
+        display: flex;
+        border-radius: 2%;
+       }
+       .c1{
+        margin-top: 40px;
+        width: 50%;
+        margin-left: -85px;
+        margin-right: 10px;
+        color: gray;
+        
+       }
+       .c2{
+        width: 60%;
+       }
+       .c3{
+        width: 10%;
+       }
+       h1{
+        padding-left: 10%;
+       }
+       #i4{
+        height: 104%;
+        width: 105%;
+        margin-top: -8px;
+       }
+       .fifth,.sixth,.seventh{
+            display: flex;
+            height: 40%;
+            width: 100%;
+       }
+       .d1,.d3,.d5,.d6{
+        margin-left: 10%;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        width: 20%;
+        cursor: pointer;
+       }
+       
+       #i5{
+        width: 101%;
+        margin-left: -2px;
+        border-radius: 10.5px 10px ;
+       }
+       
+       .d3,.d5,.d6{
+         margin-left: 20px;
+       }
+       #f1{
+        padding-left: 10px;
+        
+       }
+       #i17{
+        height: 70px;
+        width: 11%;
+        cursor: pointer;
+        margin-left: 47%;
+       }
+       #x1{
+        padding-left: 30%;
+        color: royalblue;
+       }
+       #x1:hover{
+        color: deepskyblue;
+       }
+       #s21{
+        height: 10%;
+        width: 20%;
+        margin-left: 40%;
+       }
+       #s22{
+        width: 100%;
+        margin-top: 20%;
+       }
+       .last{
+        width: 100%;
+       }
+       #z1{
+        width: 3%;
+        margin-left: 35%;
+        float: left;
+        cursor: pointer;
+       }
+       #z1:hover{
+        color: royalblue;
+       }
+       #z2:hover{
+        color: royalblue;
+       }
+       #z3:hover{
+        color: royalblue;
+       }
+       #z2{
+        margin-left: 10%;
+        
+        float: left;
+        cursor: pointer;
+       }
+       #z3{
+        width: 4%;
+        margin-left: 10%;
+        float: left;
+        cursor: pointer;
+       }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="a1"><img src="s1.png" class="i1"></div>
+        <div class="a2"></div>
+        <div class="a3"><form><input type="search" src="m12.png" alt="search" placeholder="           Search for events"></div>
+        <div class="a4"><button id="bu1"><font size="3">Sign up</font></button></div>
+        </div>
+        
+    <div class="SecDiv">
+        <div class="b1"><b><font size="80">Competitions</font><font size="80" id="h12">&nbsp;OnAir</font></b><br><br><p id="p1"><font size="5">Whether you're new to coding competitions or a seasoned competitor, Competitions OnAir will help you learn about Google's Coding Competitions, grow your skills, and connect with a global community of developers. Register for upcoming livestreams or watch previously-aired events on demand below.</p>
+            <br><p>
+            Learn more about Google's Coding Competitions and register today at  <a href=" https://codingcompetitions.withgoogle.com/"> g.co/codingcompetitions </a>!</font></p></div>
+        <div class="b2"><img src="s2.png" class="i3"></div>
+    </div>
+    <div class="third">
+        <header>
+                <button id="b3">
+                    <a href=""><font size="3" style="color: gray; padding-right:10px;"><b>Code Jam</b></font></a>
+                    <a href=""><font size="3" style="color: gray; padding-right:10px;"><b>Hash Code</b></font></a>
+                    <a href=""><font size="3" style="color: gray; padding-left:10px;"><b>Kick Start</b></font></a>
+                </button>
+        </header>
+    </div>
+    <h1 style=" color: grey;"><font size="10">Features</font></h1><br><br>
+    <div class="fourth">
+        <div class="c1"><font size="4">1 Year Ago</font><input type="button" value=" On demand" id="b4">
+            <font size="5.5"><br><br>2022 Code Jam World Finals<br> Livestream</font><br><br>
+            <p id="p2">On August 5, 2022, top programmers from around the world will compete virtually for the championship title and grand prize of $15,000 USD at the 2022 Code Jam World Finals. 
+            </p><br>
+            <p id="p3">Watch all the action unfold as the Code Jam team broadcasts live from Google New York. You'll have an opportunity to hear from our team, see Code Jam engineers explain the problems from the round, and watch live as we reveal the scoreboard and announce this year's winners! </p><br>
+            <p id="p4">Good luck to all the finalists and as always, happy coding!</p><br>
+            <button id="b5"><b><font size="3">Register</b></font></button>
+        </div>
+        <div class="c3"></div>
+        <div class="c2"><a href="https://codingcompetitionsonair.withgoogle.com/events/codejam22"><img src="s4.png" id="i4"></a></div>
+    </div>
+    <div><img src="s6.png" style="padding-left: 40%; height: 70px; cursor: pointer;"></div>
+    <h1 style=" color: grey;"><font size="10">Code Jam</font></h1><br><br>
+    <div class="fifth">
+        <div class="d1"><img src="s7.png" id="i5"><br>
+         <input type="button" value="    On demand" id="b6"><br><br>
+          <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">2022 Code Jam World Finals <br>Livestream</p></font></div>
+        <div class="d3"><img src="s8.png" id="i5" ><br>
+            <input type="button" value="    On demand" id="b6"><br><br>
+             <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Code Jam 2021 World Finals <br>Livestream & Scoreboard <br>Reveal</p></font></div>
+        <div class="d5"><img src="s9.png" id="i5" ><br>
+            <input type="button" value="    On demand" id="b6"><br><br>
+             <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Code Jam 2021 World Finals <br>Livestream & Scoreboard <br>Reveal</p></font></div>
+    </div>
+    <br><h1 style=" color: grey;"><font size="10">Hash Code</font></h1><br><br>
+    <div class="sixth">
+        <div class="d1"><img src="i10.png" id="i5"><br><br> 
+            <input type="button" value="    On demand" id="b6"><br><br>
+             <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Hash Code 2022 <br>Qualification Round<br>Livestream</p></font></div>
+           <div class="d3"><img src="i11.png" id="i5" ><br>
+               <input type="button" value="    On demand" id="b6"><br><br>
+                <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Hash Code Problem <br>Development</p></font></div>
+           <div class="d5"><img src="i12.png" id="i5" ><br>
+               <input type="button" value="    On demand" id="b6"><br><br>
+                <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Hash Code 2021 World<br>Fianls award Ceremony</p></font></div>
+            <div class="d6"><img src="i13.png" id="i5" ><br>
+                <input type="button" value="    On demand" id="b6"><br><br>
+                 <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Hash Code 2021 Online <br>Qualificatins Livestream</p></font></div>
+    </div>
+    <br><h1 style=" color: grey;"><font size="10">Kick Start</font></h1><br><br>
+    <div class="seventh">
+        <div class="d1"><img src="i14.png" id="i5"><br><br> 
+            <input type="button" value="    On demand" id="b6"><br><br>
+             <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Hash Code 2022 <br>Qualification Round<br>Livestream</p></font></div>
+           <div class="d3"><img src="i14.png" id="i5" ><br>
+               <input type="button" value="    On demand" id="b6"><br><br>
+                <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Hash Code Problem <br>Development</p></font></div>
+           <div class="d5"><img src="i15.png" id="i5" ><br>
+               <input type="button" value="    On demand" id="b6"><br><br>
+                <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Hash Code 2021 World<br>Fianls award Ceremony</p></font></div>
+            <div class="d6"><img src="i16.png" id="i5" ><br>
+                <input type="button" value="    On demand" id="b6"><br><br>
+                 <p style="color: gray; margin-left: 15px;height: 100px;"><font size="4.5">Hash Code 2021 Online <br>Qualificatins Livestream</p></font></div>
+    </div>
+    <br><img src="i17.png" id="i17"><br><br><br><br><br><br><br>
+    <font size="10" style="padding-left: 34%; color: gray;"><b>Share With Your Friends!</b></font><br>
+    <a href="https://codingcompetitionsonair.withgoogle.com/ " id="x1"><font size="10">#CodeJam #HashCode #KickStart </font></a><br><br><br>
+    <div class="last">
+        <i class="fa-brands fa-twitter fa-2xl" id="z1"></i>
+        <i class="fa-brands fa-linkedin fa-2xl" id="z2"></i>
+        <i class="fa-brands fa-square-facebook fa-2xl" id="z3"></i>
+    </div>
+    <img src="s22.png" id="s22">
+</body>
+</html>
